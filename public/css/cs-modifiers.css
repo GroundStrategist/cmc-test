@@ -1,0 +1,66 @@
+/* Slider Indicator */
+
+.w-slider-dot {
+  position: relative;
+  display: inline-block;
+  background: #cfcfcf;
+  width: 5vw;
+  border-radius: 5px !important;
+  height: 2px;
+  cursor: pointer;
+  margin: 0 3px 0.5em;
+  margin-top: 1.6em;
+  transition: background-color 100ms, color 100ms;
+}
+.w-slider-dot.w-active  {
+  background-color: #004683;
+}
+
+/* Study outline */
+.study__outline {
+  margin-left: 4px;
+  margin-right: 8px;
+}
+
+/* Form Label Transition */
+.input-label__label {
+  /* transition: 0.2s transform cubic-bezier(0.71, 0.07, 0, 1); */
+  transition: 0.1s transform ease-out;
+}
+
+/* Input label Highlight  */
+.label--is-highlighted {
+  color: #004683;
+}
+
+/* Try to disable autofill height  */
+input {
+  background-color: none;
+}
+input:-webkit-autofill {
+  background-color: #fff !important;
+  background-image: none !important;
+}
+input:autofill {
+  background-color: #fff !important;
+  background-image: none !important;
+}
+
+input:-internal-autofill-selected {
+  background-color: #fff !important;
+  background-image: none !important;
+}
+
+/* Style disabled buttons */
+button {
+  transition: 0.2s opacity ease;
+}
+button:disabled {
+  opacity: 0.5;
+}
+
+/* AuthPage C-Styling */
+
+.auth-page--is-signup {
+  background-image: url(../images/confident-business-woman-portrait-smiling-face.jpg);
+}
